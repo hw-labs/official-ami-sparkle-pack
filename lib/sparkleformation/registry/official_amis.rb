@@ -7,11 +7,7 @@ SfnRegistry.register(:official_amis) do |_name, _config = {}|
   ami_hash = {}
 
   os_versions.each do |os|
-
     ami_hash[os] = registry!("#{os}_amis".to_sym)
-    #   :precise => registry!(:ubuntu_12_amis),
-    #   :amazon_2015_09 => registry!(:amazon_linux_2015_09_amis)
-    # }
   end
   
   ami_hash.each do |release, info|
