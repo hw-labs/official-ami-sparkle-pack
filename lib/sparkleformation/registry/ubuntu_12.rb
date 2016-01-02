@@ -1,6 +1,6 @@
 SfnRegistry.register(:ubuntu_12_amis) do
   {
-    :version => '12.04',
+    :version => 'precise',
     :amis => {
       'us-east-1' => {
         :hvm => {

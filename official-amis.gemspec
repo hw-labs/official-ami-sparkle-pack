@@ -7,6 +7,7 @@ Gem::Specification.new do |s|
   s.authors = ['Michael F. Weinberg']
   s.email = 'support@heavywater.io'
   s.homepage = 'http://sparkleformation.io'
-  s.files = Dir[ 'lib/sparkleformation/**/*' ] + %w(official-amis.gemspec lib/official-amis.rb)
+  s.files = Dir[ 'lib/sparkleformation/registry/*' ] + %w(official-amis.gemspec lib/official-amis.rb)
+  s.add_runtime_dependency 'sparkle_formation'
 end
   

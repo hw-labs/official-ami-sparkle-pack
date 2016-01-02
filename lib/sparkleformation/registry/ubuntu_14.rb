@@ -1,6 +1,6 @@
 SfnRegistry.register(:ubuntu_14_amis) do
   {
-    :version => '14.04',
+    :version => 'trusty',
     :amis => {
       'us-east-1' => {
         :hvm => {

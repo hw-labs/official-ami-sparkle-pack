@@ -1,6 +1,6 @@
 SfnRegistry.register(:amazon_2015_09_amis) do
   {
-    :version => '2015.09',
+    :version => '201509',
     :amis => {
       'us-east-1' => {
         :hvm => {
